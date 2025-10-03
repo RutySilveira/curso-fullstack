@@ -10,18 +10,21 @@
 
 <body>
 
+  <!-- Formulário que dispara a função calcular(event) quando é enviado -->
   <form onsubmit="return calcular(event)">
     <label>Digite seu peso:</label> <br />
     <input type="text" name="peso" id="peso" placeholder="Exemplo 65" /> <br /><br />
 
-    <label>Digite seu altura:</label> <br />
+    <label>Digite sua altura:</label> <br />
     <input type="text" name="altura" id="altura" placeholder="Exemplo 1.90" /> <br /><br />
 
     <input type="submit" value="Calcular IMC">
-
   </form>
+
+  <!-- Aqui o resultado será mostrado -->
   <div id="resultado"></div>
 
+  <!-- Importa o script que vai ter a lógica -->
   <script src="script.js"></script>
 </body>
 
